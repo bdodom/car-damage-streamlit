@@ -24,8 +24,9 @@ def download_file_from_google_drive(file_id, destination):
                 f.write(chunk)
 
 # --- Download model if not present ---
-MODEL_PATH = "car_damage_model.pth"
-GOOGLE_DRIVE_FILE_ID = "1fhFAc0cea3CIvr3dFi0NnZWqkyh_pgM_"
+MODEL_PATH = "car_damaged_model.pth"
+GOOGLE_DRIVE_FILE_ID = "1hZ1VNqiyRUVvbEzcsarYSo0HAq-F81Ip"
+
 
 if not os.path.exists(MODEL_PATH):
     with st.spinner("Downloading model file from Google Drive..."):
