@@ -1,7 +1,3 @@
-# car-damage-streamlit
-Deep Learning Car Damage Classifier Streamlit web app for automatic car damage detection using a PyTorch ResNet18 model. Upload a car image for instant Damaged or Whole Predictions
-
-
 Car Damage Detection Web App 🚗🔍
 This project is a user-friendly Streamlit app that uses a deep learning model (ResNet18, PyTorch) to classify car images as either damaged or whole. Upload a .jpg or .png image of a car, and the app will instantly display the model’s prediction.
 
